@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgi73q18e3iqo"
+path="res://.godot/imported/shield.obj-7011bb4dd9f6c359d87ac5691eebdac9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shield.obj-7011bb4dd9f6c359d87ac5691eebdac9.mesh"]
+
+source_file="res://KayKit Character Pack - Skeletons 1.0/Models/assets/obj/shield.obj"
+dest_files=["res://.godot/imported/shield.obj-7011bb4dd9f6c359d87ac5691eebdac9.mesh", "res://.godot/imported/shield.obj-7011bb4dd9f6c359d87ac5691eebdac9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

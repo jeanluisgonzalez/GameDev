@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dr2v3vocmu3jw"
+path="res://.godot/imported/arrow_purple_half.obj-ac429eab6406270b038853f85d6b0fdc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/arrow_purple_half.obj-ac429eab6406270b038853f85d6b0fdc.mesh"]
+
+source_file="res://KayKit Character Pack - Skeletons 1.0/Models/assets/obj/arrow_purple_half.obj"
+dest_files=["res://.godot/imported/arrow_purple_half.obj-ac429eab6406270b038853f85d6b0fdc.mesh", "res://.godot/imported/arrow_purple_half.obj-ac429eab6406270b038853f85d6b0fdc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

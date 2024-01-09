@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://nyggo5cjfnfu"
+path="res://.godot/imported/Case.obj-bb7be8790af421f2c9e2f0a17ffca498.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Case.obj-bb7be8790af421f2c9e2f0a17ffca498.mesh"]
+
+source_file="res://KayKit Character Animations 1.2/Models/obj/Case.obj"
+dest_files=["res://.godot/imported/Case.obj-bb7be8790af421f2c9e2f0a17ffca498.mesh", "res://.godot/imported/Case.obj-bb7be8790af421f2c9e2f0a17ffca498.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

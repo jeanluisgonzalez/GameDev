@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdlrevvembaj4"
+path="res://.godot/imported/character_skeleton_warrior_head_broken.obj-a3532eb798784793dbab22141a4ef4c9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_warrior_head_broken.obj-a3532eb798784793dbab22141a4ef4c9.mesh"]
+
+source_file="res://KayKit Character Pack - Skeletons 1.0/Models/characters/obj/character_skeleton_warrior_head_broken.obj"
+dest_files=["res://.godot/imported/character_skeleton_warrior_head_broken.obj-a3532eb798784793dbab22141a4ef4c9.mesh", "res://.godot/imported/character_skeleton_warrior_head_broken.obj-a3532eb798784793dbab22141a4ef4c9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

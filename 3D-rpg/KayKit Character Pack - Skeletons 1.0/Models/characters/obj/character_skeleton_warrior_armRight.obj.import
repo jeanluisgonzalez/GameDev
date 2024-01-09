@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vtw0lq1agccy"
+path="res://.godot/imported/character_skeleton_warrior_armRight.obj-3d7242718e5cd4802081dbed3609402a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character_skeleton_warrior_armRight.obj-3d7242718e5cd4802081dbed3609402a.mesh"]
+
+source_file="res://KayKit Character Pack - Skeletons 1.0/Models/characters/obj/character_skeleton_warrior_armRight.obj"
+dest_files=["res://.godot/imported/character_skeleton_warrior_armRight.obj-3d7242718e5cd4802081dbed3609402a.mesh", "res://.godot/imported/character_skeleton_warrior_armRight.obj-3d7242718e5cd4802081dbed3609402a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
