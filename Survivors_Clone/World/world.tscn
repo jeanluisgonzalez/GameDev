@@ -1,7 +1,26 @@
-[gd_scene load_steps=3 format=3 uid="uid://psaue8tday01"]
+[gd_scene load_steps=8 format=3 uid="uid://psaue8tday01"]
 
 [ext_resource type="Texture2D" uid="uid://tgtvwdt2aegi" path="res://Textures/dirt_full_new.png" id="1_3l6rs"]
 [ext_resource type="PackedScene" uid="uid://cw66pqm48xhhm" path="res://Player/player.tscn" id="2_4jev7"]
+[ext_resource type="PackedScene" uid="uid://f7qkv8odjrx5" path="res://Utility/enemy_spawner.tscn" id="3_c246m"]
+[ext_resource type="PackedScene" uid="uid://bnitk2kmhdjln" path="res://Enemy/enemy.tscn" id="4_cf4ds"]
+[ext_resource type="Script" path="res://Utility/spawn_info.gd" id="5_f3323"]
+
+[sub_resource type="Resource" id="Resource_6apw3"]
+script = ExtResource("5_f3323")
+time_start = 0
+time_end = 5
+enemy = ExtResource("4_cf4ds")
+enemy_num = 1
+enemy_spawn_delay = 0
+
+[sub_resource type="Resource" id="Resource_pemag"]
+script = ExtResource("5_f3323")
+time_start = 5
+time_end = 60
+enemy = ExtResource("4_cf4ds")
+enemy_num = 2
+enemy_spawn_delay = 0
 
 [node name="World" type="Node2D"]
 
@@ -14,3 +33,6 @@ region_enabled = true
 region_rect = Rect2(0, 0, 4000, 4000)
 
 [node name="Player" parent="." instance=ExtResource("2_4jev7")]
+
+[node name="EnemySpawner" parent="." instance=ExtResource("3_c246m")]
+spawns = Array[ExtResource("5_f3323")]([SubResource("Resource_6apw3"), SubResource("Resource_pemag")])
