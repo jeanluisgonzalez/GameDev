@@ -11,9 +11,18 @@ config_version=5
 [application]
 
 config/name="3d-rpg"
+run/main_scene="res://world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [filesystem]
 
 import/fbx/enabled=false
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
