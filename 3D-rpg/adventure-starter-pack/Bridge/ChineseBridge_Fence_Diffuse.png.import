@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvw0tkdwehaqs"
-path="res://.godot/imported/ChineseBridge_Fence_Diffuse.png-986a5657d59c03b88bc150fcaa40c540.ctex"
+path="res://.godot/imported/ChineseBridge_Fence_Diffuse.png-91433c8f682dad9136f9812786442240.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Bridge/ChineseBridge_Fence_Diffuse.png"
-dest_files=["res://.godot/imported/ChineseBridge_Fence_Diffuse.png-986a5657d59c03b88bc150fcaa40c540.ctex"]
+source_file="res://adventure-starter-pack/Bridge/ChineseBridge_Fence_Diffuse.png"
+dest_files=["res://.godot/imported/ChineseBridge_Fence_Diffuse.png-91433c8f682dad9136f9812786442240.ctex"]
 
 [params]
 

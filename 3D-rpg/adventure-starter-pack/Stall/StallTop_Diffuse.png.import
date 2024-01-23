@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7ewdqxtynhal"
-path="res://.godot/imported/StallTop_Diffuse.png-ad39de024107e77646d01bfe5c29fc83.ctex"
+path="res://.godot/imported/StallTop_Diffuse.png-e0577375df04da7b690ddd20485daa10.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Stall/StallTop_Diffuse.png"
-dest_files=["res://.godot/imported/StallTop_Diffuse.png-ad39de024107e77646d01bfe5c29fc83.ctex"]
+source_file="res://adventure-starter-pack/Stall/StallTop_Diffuse.png"
+dest_files=["res://.godot/imported/StallTop_Diffuse.png-e0577375df04da7b690ddd20485daa10.ctex"]
 
 [params]
 

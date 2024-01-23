@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmke73enme8ex"
-path="res://.godot/imported/StoneBase_Diffuse.png-20c3289c8a833d5e7e0060445c80fbbd.ctex"
+path="res://.godot/imported/StoneBase_Diffuse.png-247048dee9f9e647281ebdd85a3e5b54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Campfire/StoneBase_Diffuse.png"
-dest_files=["res://.godot/imported/StoneBase_Diffuse.png-20c3289c8a833d5e7e0060445c80fbbd.ctex"]
+source_file="res://adventure-starter-pack/Campfire/StoneBase_Diffuse.png"
+dest_files=["res://.godot/imported/StoneBase_Diffuse.png-247048dee9f9e647281ebdd85a3e5b54.ctex"]
 
 [params]
 

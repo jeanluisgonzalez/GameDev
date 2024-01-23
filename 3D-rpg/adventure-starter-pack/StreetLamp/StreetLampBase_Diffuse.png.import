@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qly1j1x53tgf"
-path="res://.godot/imported/StreetLampBase_Diffuse.png-4500e302bd22d2b8c4c81f47594d37e5.ctex"
+path="res://.godot/imported/StreetLampBase_Diffuse.png-0b86b178d08ca88b4a91dfccac852ed7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/StreetLamp/StreetLampBase_Diffuse.png"
-dest_files=["res://.godot/imported/StreetLampBase_Diffuse.png-4500e302bd22d2b8c4c81f47594d37e5.ctex"]
+source_file="res://adventure-starter-pack/StreetLamp/StreetLampBase_Diffuse.png"
+dest_files=["res://.godot/imported/StreetLampBase_Diffuse.png-0b86b178d08ca88b4a91dfccac852ed7.ctex"]
 
 [params]
 

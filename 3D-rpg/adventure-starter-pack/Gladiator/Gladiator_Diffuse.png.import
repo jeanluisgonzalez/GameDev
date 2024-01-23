@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bihlt6f1hoig"
-path="res://.godot/imported/Gladiator_Diffuse.png-d50a5d04c56b7546bb38572f715dec30.ctex"
+path="res://.godot/imported/Gladiator_Diffuse.png-7b742c137b44457905642203a23fd114.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Gladiator/Gladiator_Diffuse.png"
-dest_files=["res://.godot/imported/Gladiator_Diffuse.png-d50a5d04c56b7546bb38572f715dec30.ctex"]
+source_file="res://adventure-starter-pack/Gladiator/Gladiator_Diffuse.png"
+dest_files=["res://.godot/imported/Gladiator_Diffuse.png-7b742c137b44457905642203a23fd114.ctex"]
 
 [params]
 

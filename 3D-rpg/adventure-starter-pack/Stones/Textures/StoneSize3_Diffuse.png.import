@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rwdbb733flfu"
-path="res://.godot/imported/StoneSize3_Diffuse.png-6f2ffadb39f01aa1387c19b351acb2c0.ctex"
+path="res://.godot/imported/StoneSize3_Diffuse.png-28b6f3e06b8ec5dd716d9143112cec09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Stones/Textures/StoneSize3_Diffuse.png"
-dest_files=["res://.godot/imported/StoneSize3_Diffuse.png-6f2ffadb39f01aa1387c19b351acb2c0.ctex"]
+source_file="res://adventure-starter-pack/Stones/Textures/StoneSize3_Diffuse.png"
+dest_files=["res://.godot/imported/StoneSize3_Diffuse.png-28b6f3e06b8ec5dd716d9143112cec09.ctex"]
 
 [params]
 

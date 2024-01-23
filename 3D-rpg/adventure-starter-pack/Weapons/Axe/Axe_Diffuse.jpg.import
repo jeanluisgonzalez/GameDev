@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn7jptj42fstc"
-path="res://.godot/imported/Axe_Diffuse.jpg-cc0a000a51b099699fd930b003957306.ctex"
+path="res://.godot/imported/Axe_Diffuse.jpg-3bd2a90ee858414317b468bd11e4c86c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Weapons/Axe/Axe_Diffuse.jpg"
-dest_files=["res://.godot/imported/Axe_Diffuse.jpg-cc0a000a51b099699fd930b003957306.ctex"]
+source_file="res://adventure-starter-pack/Weapons/Axe/Axe_Diffuse.jpg"
+dest_files=["res://.godot/imported/Axe_Diffuse.jpg-3bd2a90ee858414317b468bd11e4c86c.ctex"]
 
 [params]
 

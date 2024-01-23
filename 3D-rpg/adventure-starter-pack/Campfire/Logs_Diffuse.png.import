@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u1x7g7e6ujcg"
-path="res://.godot/imported/Logs_Diffuse.png-a5c70fed003b05e3b3f4c97d65d7f7ea.ctex"
+path="res://.godot/imported/Logs_Diffuse.png-af3159daadaf743bc99711a47763ea1e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Campfire/Logs_Diffuse.png"
-dest_files=["res://.godot/imported/Logs_Diffuse.png-a5c70fed003b05e3b3f4c97d65d7f7ea.ctex"]
+source_file="res://adventure-starter-pack/Campfire/Logs_Diffuse.png"
+dest_files=["res://.godot/imported/Logs_Diffuse.png-af3159daadaf743bc99711a47763ea1e.ctex"]
 
 [params]
 

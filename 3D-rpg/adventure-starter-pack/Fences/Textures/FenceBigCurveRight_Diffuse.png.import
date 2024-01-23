@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4djdeewmqgih"
-path="res://.godot/imported/FenceBigCurveRight_Diffuse.png-05415abe19ef8bb91b54a27e0ab2a3af.ctex"
+path="res://.godot/imported/FenceBigCurveRight_Diffuse.png-a993bdb9d572926a73c1ec792345daae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Fences/Textures/FenceBigCurveRight_Diffuse.png"
-dest_files=["res://.godot/imported/FenceBigCurveRight_Diffuse.png-05415abe19ef8bb91b54a27e0ab2a3af.ctex"]
+source_file="res://adventure-starter-pack/Fences/Textures/FenceBigCurveRight_Diffuse.png"
+dest_files=["res://.godot/imported/FenceBigCurveRight_Diffuse.png-a993bdb9d572926a73c1ec792345daae.ctex"]
 
 [params]
 

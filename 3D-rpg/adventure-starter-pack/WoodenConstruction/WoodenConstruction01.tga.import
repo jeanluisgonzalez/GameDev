@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm7hr2iynk8fc"
-path="res://.godot/imported/WoodenConstruction01.tga-67b2f9ed0dac00ffe2c60a07763d5170.ctex"
+path="res://.godot/imported/WoodenConstruction01.tga-2863314c7190e72850da697a3febc150.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/WoodenConstruction/WoodenConstruction01.tga"
-dest_files=["res://.godot/imported/WoodenConstruction01.tga-67b2f9ed0dac00ffe2c60a07763d5170.ctex"]
+source_file="res://adventure-starter-pack/WoodenConstruction/WoodenConstruction01.tga"
+dest_files=["res://.godot/imported/WoodenConstruction01.tga-2863314c7190e72850da697a3febc150.ctex"]
 
 [params]
 

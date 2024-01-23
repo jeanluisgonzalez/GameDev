@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcp33mg7ycg8w"
-path="res://.godot/imported/Portal_Diffuse.png-4cf13d925cabcb5efcbf024b2e3cebb9.ctex"
+path="res://.godot/imported/Portal_Diffuse.png-9b4cc183c95fdea5aff181f08c87a47d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Portal/Portal_Diffuse.png"
-dest_files=["res://.godot/imported/Portal_Diffuse.png-4cf13d925cabcb5efcbf024b2e3cebb9.ctex"]
+source_file="res://adventure-starter-pack/Portal/Portal_Diffuse.png"
+dest_files=["res://.godot/imported/Portal_Diffuse.png-9b4cc183c95fdea5aff181f08c87a47d.ctex"]
 
 [params]
 

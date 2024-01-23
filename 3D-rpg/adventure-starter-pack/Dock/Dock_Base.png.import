@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyh77rbakqgmi"
-path="res://.godot/imported/Dock_Base.png-77e5821ef53db7c22a2c1d9cf6118db9.ctex"
+path="res://.godot/imported/Dock_Base.png-ad26a12a3e032251512c86289221f064.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Dock/Dock_Base.png"
-dest_files=["res://.godot/imported/Dock_Base.png-77e5821ef53db7c22a2c1d9cf6118db9.ctex"]
+source_file="res://adventure-starter-pack/Dock/Dock_Base.png"
+dest_files=["res://.godot/imported/Dock_Base.png-ad26a12a3e032251512c86289221f064.ctex"]
 
 [params]
 

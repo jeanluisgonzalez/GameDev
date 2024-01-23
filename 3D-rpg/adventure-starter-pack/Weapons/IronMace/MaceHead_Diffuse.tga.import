@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pqni5s6sqisu"
-path="res://.godot/imported/MaceHead_Diffuse.tga-c3b597b0e799635142fe62dc1b691455.ctex"
+path="res://.godot/imported/MaceHead_Diffuse.tga-38a300466e5166ac350e82b2d8574a9b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Weapons/IronMace/MaceHead_Diffuse.tga"
-dest_files=["res://.godot/imported/MaceHead_Diffuse.tga-c3b597b0e799635142fe62dc1b691455.ctex"]
+source_file="res://adventure-starter-pack/Weapons/IronMace/MaceHead_Diffuse.tga"
+dest_files=["res://.godot/imported/MaceHead_Diffuse.tga-38a300466e5166ac350e82b2d8574a9b.ctex"]
 
 [params]
 

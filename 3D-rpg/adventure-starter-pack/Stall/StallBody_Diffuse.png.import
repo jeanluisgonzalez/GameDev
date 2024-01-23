@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8ht8l41as4p1"
-path="res://.godot/imported/StallBody_Diffuse.png-aced5d3b19dde001564024fe95310d8d.ctex"
+path="res://.godot/imported/StallBody_Diffuse.png-a4dab660585b11fbdde13717e68c424d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Stall/StallBody_Diffuse.png"
-dest_files=["res://.godot/imported/StallBody_Diffuse.png-aced5d3b19dde001564024fe95310d8d.ctex"]
+source_file="res://adventure-starter-pack/Stall/StallBody_Diffuse.png"
+dest_files=["res://.godot/imported/StallBody_Diffuse.png-a4dab660585b11fbdde13717e68c424d.ctex"]
 
 [params]
 

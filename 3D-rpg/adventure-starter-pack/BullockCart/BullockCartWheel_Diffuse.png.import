@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg6ihb7sr3lcp"
-path="res://.godot/imported/BullockCartWheel_Diffuse.png-e31d5915b0d878a301679390c73a70bc.ctex"
+path="res://.godot/imported/BullockCartWheel_Diffuse.png-723a2136e1dbf1b583386fadc3d05709.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/BullockCart/BullockCartWheel_Diffuse.png"
-dest_files=["res://.godot/imported/BullockCartWheel_Diffuse.png-e31d5915b0d878a301679390c73a70bc.ctex"]
+source_file="res://adventure-starter-pack/BullockCart/BullockCartWheel_Diffuse.png"
+dest_files=["res://.godot/imported/BullockCartWheel_Diffuse.png-723a2136e1dbf1b583386fadc3d05709.ctex"]
 
 [params]
 

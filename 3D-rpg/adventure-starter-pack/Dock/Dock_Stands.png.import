@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://72jcqs2uuk8o"
-path="res://.godot/imported/Dock_Stands.png-6bafb4aff5871299697d564f63f8d98b.ctex"
+path="res://.godot/imported/Dock_Stands.png-9764a23b15808d3eb4741a4b7ce8819e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventure-starter-pack/adventure-starter-pack/Dock/Dock_Stands.png"
-dest_files=["res://.godot/imported/Dock_Stands.png-6bafb4aff5871299697d564f63f8d98b.ctex"]
+source_file="res://adventure-starter-pack/Dock/Dock_Stands.png"
+dest_files=["res://.godot/imported/Dock_Stands.png-9764a23b15808d3eb4741a4b7ce8819e.ctex"]
 
 [params]
 
