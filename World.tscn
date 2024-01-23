@@ -1,4 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://sgtwb8gl201a"]
+[gd_scene load_steps=7 format=3 uid="uid://sgtwb8gl201a"]
+
+[ext_resource type="PackedScene" uid="uid://c33m82f6k6fep" path="res://Player/player_1.tscn" id="1_jm2ds"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_unoox"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -14,10 +16,10 @@ tonemap_mode = 2
 glow_enabled = true
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_i356c"]
-size = Vector2(10, 10)
+size = Vector2(20, 20)
 
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_eabxr"]
-data = PackedVector3Array(5, 0, 5, -5, 0, 5, 5, 0, -5, -5, 0, 5, -5, 0, -5, 5, 0, -5)
+[sub_resource type="BoxShape3D" id="BoxShape3D_j68dm"]
+size = Vector3(20, 0.05, 20)
 
 [node name="World" type="Node3D"]
 
@@ -34,4 +36,7 @@ mesh = SubResource("PlaneMesh_i356c")
 [node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
-shape = SubResource("ConcavePolygonShape3D_eabxr")
+shape = SubResource("BoxShape3D_j68dm")
+
+[node name="player1" parent="." instance=ExtResource("1_jm2ds")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29271, 0)
