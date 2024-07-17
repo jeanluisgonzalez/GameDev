@@ -11,12 +11,21 @@ config_version=5
 [application]
 
 config/name="3D Action RPG Starter Project"
+run/main_scene="res://Scenes/Levels/Level_1.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/mode="canvas_items"
+
+[file_customization]
+
+folder_colors={
+"res://Assets/": "red",
+"res://Scenes/": "orange",
+"res://Scripts/": "yellow"
+}
 
 [filesystem]
 

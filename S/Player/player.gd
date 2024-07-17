@@ -1,36 +1,65 @@
-extends RigidBody3D
+extends CharacterBody3D
 
-var mouse_sensitivity := 0.001
-var twist_input := 0.0
-var pitch_input:= 0.0
+@onready var camera_mount = $camera_mount
+@onready var animation_player = $visuals/Player/AnimationPlayer
+@onready var visuals = $visuals
 
-@onready var twistPivot = $TwistPivot
-@onready var pitchPivot = $TwistPivot/PitchPivot
-# Called when the node enters the scene tree for the first time.
+
+var SPEED = 3.5
+const JUMP_VELOCITY = 4.5
+
+var walking_speed = 3.5
+var running_speed = 5.0
+var running = false
+
+@export var sens_horizontal = 0.5
+@export  var sens_vertical = 0.1
+# Get the gravity from the project settings to be synced with RigidBody nodes.
+var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+
 func _ready():
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	var input := Vector3.ZERO
-	input.x = Input.get_axis("move_left", "move_right")
-	input.z = Input.get_axis("move_forward","move_back")
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	
-	apply_central_force(twistPivot.basis * input * 1200.0 * delta)
-	
-	# To lose the mouse and prevent the movement of the camera
-	if Input.is_action_just_pressed("ui_cancel"):
-		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
-	
-	twistPivot.rotate_y(twist_input)
-	pitchPivot.rotate_x(pitch_input)
-	pitchPivot.rotation.x = clamp(pitchPivot.rotation.x,-0.5,0.5)
-	twist_input= 0.0
-	pitch_input= 0.0
-
-func _unhandled_input(event):
+func _input(event):
 	if event is InputEventMouseMotion:
-		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
-			twist_input = - event.relative.x * mouse_sensitivity
-			pitch_input = - event.relative.y * mouse_sensitivity
+		rotate_y(deg_to_rad(-event.relative.x * sens_horizontal))
+		visuals.rotate_y(deg_to_rad(event.relative.x * sens_horizontal))
+		camera_mount.rotate_x(deg_to_rad(-event.relative.y * sens_vertical))
+		camera_mount.rotation.x= clamp(camera_mount.rotation.x,-0.5,0.5)
+
+func _physics_process(delta):
+	
+	if Input.is_action_pressed("run"):
+		SPEED = running_speed
+	else:
+		SPEED = walking_speed
+		
+	
+	# Add the gravity.
+	if not is_on_floor():
+		velocity.y -= gravity * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var input_dir = Input.get_vector("move_left","move_right","move_forward","move_back")
+	var direction = (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	if direction:
+		if animation_player.current_animation != "Walk":
+			animation_player.play("Walk")
+			
+		
+		visuals.look_at(position + direction)
+		
+		velocity.x = direction.x * SPEED
+		velocity.z = direction.z * SPEED
+	else:
+		if animation_player.current_animation != "Idle":
+			animation_player.play("Idle")
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.z = move_toward(velocity.z, 0, SPEED)
+
+	move_and_slide()

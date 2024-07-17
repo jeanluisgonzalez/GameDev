@@ -1,42 +1,75 @@
-[gd_scene load_steps=7 format=3 uid="uid://sgtwb8gl201a"]
+[gd_scene load_steps=13 format=3 uid="uid://sgtwb8gl201a"]
 
-[ext_resource type="PackedScene" uid="uid://c33m82f6k6fep" path="res://Player/player_1.tscn" id="1_jm2ds"]
+[ext_resource type="Texture2D" uid="uid://c2v1ebbcque8i" path="res://assets/textures/grids/dark/texture_05.png" id="1_5x3rs"]
+[ext_resource type="Texture2D" uid="uid://bhura7x1ukn0i" path="res://assets/textures/grids/orange/texture_09.png" id="2_0evt2"]
+[ext_resource type="Texture2D" uid="uid://b2xpvyufmb7hb" path="res://assets/textures/grids/purple/texture_09.png" id="3_ibnl6"]
+[ext_resource type="Texture2D" uid="uid://lasfe03jy26q" path="res://assets/textures/grids/green/texture_09.png" id="4_bk0xk"]
+[ext_resource type="PackedScene" uid="uid://b55pctbs8b7p2" path="res://Player/player.tscn" id="5_1wh8l"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_unoox"]
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_sx3nd"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 
-[sub_resource type="Sky" id="Sky_ww7k3"]
-sky_material = SubResource("ProceduralSkyMaterial_unoox")
+[sub_resource type="Sky" id="Sky_msfrb"]
+sky_material = SubResource("ProceduralSkyMaterial_sx3nd")
 
-[sub_resource type="Environment" id="Environment_m8tiv"]
+[sub_resource type="Environment" id="Environment_kfxxx"]
 background_mode = 2
-sky = SubResource("Sky_ww7k3")
+sky = SubResource("Sky_msfrb")
 tonemap_mode = 2
 glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(1, 1, 1, 1)
+fog_density = 0.001
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_i356c"]
-size = Vector2(20, 20)
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_akv53"]
+albedo_texture = ExtResource("1_5x3rs")
+uv1_triplanar = true
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_j68dm"]
-size = Vector3(20, 0.05, 20)
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j2jnw"]
+albedo_texture = ExtResource("2_0evt2")
 
-[node name="World" type="Node3D"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r220b"]
+albedo_texture = ExtResource("3_ibnl6")
+uv1_triplanar = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0dqym"]
+albedo_texture = ExtResource("4_bk0xk")
+uv1_triplanar = true
+
+[node name="world" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_m8tiv")
+environment = SubResource("Environment_kfxxx")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
 shadow_enabled = true
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("PlaneMesh_i356c")
+[node name="map" type="Node3D" parent="."]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+[node name="floor" type="CSGBox3D" parent="map"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.522585, 0)
+material_override = SubResource("StandardMaterial3D_akv53")
+use_collision = true
+size = Vector3(1000, 1, 1000)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
-shape = SubResource("BoxShape3D_j68dm")
+[node name="boxOrange" type="CSGBox3D" parent="map"]
+transform = Transform3D(0.743448, 0, -0.668793, 0, 1, 0, 0.668793, 0, 0.743448, 2.50893, 0.484975, 2.87305)
+material_override = SubResource("StandardMaterial3D_j2jnw")
+use_collision = true
 
-[node name="player1" parent="." instance=ExtResource("1_jm2ds")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.29271, 0)
+[node name="boxPurple" type="CSGBox3D" parent="map"]
+transform = Transform3D(0.743448, 0, -0.668793, 0, 1, 0, 0.668793, 0, 0.743448, -5.11505, 0.984975, 5.20209)
+material_override = SubResource("StandardMaterial3D_r220b")
+use_collision = true
+size = Vector3(2, 2, 2)
+
+[node name="boxGreen" type="CSGBox3D" parent="map"]
+transform = Transform3D(0.0825821, 0, -0.996584, 0, 1, 0, 0.996584, 0, 0.0825821, -2.69836, 1.48497, -5.498)
+material_override = SubResource("StandardMaterial3D_0dqym")
+use_collision = true
+size = Vector3(3, 3, 3)
+
+[node name="player" parent="." instance=ExtResource("5_1wh8l")]
+sens_horizontal = 0.2
