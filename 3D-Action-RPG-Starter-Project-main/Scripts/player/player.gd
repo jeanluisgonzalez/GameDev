@@ -42,6 +42,7 @@ func _input(event:InputEvent):
 		aim_turn = -event.relative.x * 0.015
 	if event.is_action_pressed("aim"):
 		direction = camrot_h.global_transform.basis.z
+		
 func _physics_process(delta: float) ->void:
 	var on_floor = is_on_floor()
 	if !is_dying:

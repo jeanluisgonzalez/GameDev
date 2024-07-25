@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://c5hvool36ljcj"]
+[gd_scene load_steps=5 format=3 uid="uid://c5hvool36ljcj"]
 
 [ext_resource type="MeshLibrary" uid="uid://d4fjmd4uilet" path="res://Scenes/Levels/library.tres" id="1_acjf2"]
 [ext_resource type="PackedScene" uid="uid://cwgnft2vgvu0l" path="res://Scenes/player/player.tscn" id="2_grvq5"]
+[ext_resource type="PackedScene" uid="uid://dcfjtlrhmbh4f" path="res://Scenes/Mosters/skeleton_warrior_monster.tscn" id="3_2dkb8"]
 
 [sub_resource type="Environment" id="Environment_fbqul"]
 background_mode = 1
@@ -25,3 +26,7 @@ environment = SubResource("Environment_fbqul")
 
 [node name="player" parent="." instance=ExtResource("2_grvq5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.779801, 1.03059, -0.0176435)
+
+[node name="skeleton_warrior_monster" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_2dkb8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 5)
+player = NodePath("../player")
