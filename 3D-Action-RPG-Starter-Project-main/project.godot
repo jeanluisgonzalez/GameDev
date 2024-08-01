@@ -31,6 +31,10 @@ folder_colors={
 
 import/fbx/enabled=false
 
+[gui]
+
+theme/custom="res://Assets/default2.0.tres"
+
 [input]
 
 right={

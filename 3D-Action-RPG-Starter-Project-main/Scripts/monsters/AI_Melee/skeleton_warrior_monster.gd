@@ -52,11 +52,30 @@ func _on_attack_player_detection_body_exited(body):
 func _on_animation_tree_animation_finished(anim_name):
 	if "Awakening" in anim_name:
 		Awakening = false
-	elif "Awakening" in anim_name:
-		if (player in get_node("attack_player_detection").get_overlapping_boddies()) and !dying:
-			state_controller.change_state("Attack")
+	elif "Attack" in anim_name:
+		if (player in get_node("attack_player_detection").get_overlapping_bodies()) and !dying:
+				state_controller.change_state("Attack")
 	elif "Death" in anim_name:
 		death()
 
 func death():
 	self.queue_free()
+
+func hit(damage: int):
+	if !just_hit:
+		just_hit = true
+		get_node("just_hit").start()
+		health -= damage
+		if health < 0:
+			state_controller.change_state("Death")
+		#knockback
+		var tween = create_tween()
+		tween.tween_property(self,"global_position", global_position - (direction/1.5),0.2)
+
+func _on_just_hit_timeout():
+	just_hit = false
+
+
+func _on_damage_detector_body_entered(body):
+	if body.is_in_group("player"):
+		body.hit(2)

@@ -10,6 +10,7 @@ func _ready():
 	AIController.Attacking =true
 	AIController.get_node("AnimationTree").get("parameters/playback").travel("Attack")
 	AIController.look_at(AIController.global_transform.origin + AIController.direction, Vector3(0,1,0))
+	
 
 func _physics_process(delta: float):
 	if AIController:
