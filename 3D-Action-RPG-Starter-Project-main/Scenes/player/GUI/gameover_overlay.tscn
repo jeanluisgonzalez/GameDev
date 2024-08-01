@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bq2ahw3fli6lv"]
 
-[ext_resource type="Script" path="res://Scenes/player/GUI/gameover_overlay.gd" id="1_hlgk5"]
+[ext_resource type="Script" path="res://Scripts/player/GUI/gameover_overlay.gd" id="1_hlgk5"]
 
 [node name="gameover_overlay" type="CanvasLayer"]
 process_mode = 3
@@ -31,3 +31,5 @@ offset_top = 384.0
 offset_right = 608.0
 offset_bottom = 424.0
 text = "Retry       "
+
+[connection signal="pressed" from="Panel/retry" to="." method="_on_retry_pressed"]
