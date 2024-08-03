@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://oirg4hdvvcsm"]
+
+[ext_resource type="Script" path="res://Scripts/player/GUI/Inventory/item_data.gd" id="1_xygf1"]
+
+[resource]
+script = ExtResource("1_xygf1")
+type = 0
+item_name = ""
+item_damage = 0
+item_health = 0
+item_defense = 0
+stackable = false
+count = 0
+description = ""

@@ -1,11 +1,13 @@
-extends Node
+class_name ItemData
+extends Resource
 
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+enum Type {WEAPON, HEAD, BODY, LEGS, FEET, MISC, MAIN}
+@export var type: Type
+@export var item_name:String
+@export var item_damage: int
+@export var item_health: int
+@export var item_defense: int
+@export var stackable: bool
+@export var count: int
+@export_multiline var description: String
+@export var item_texture: Texture2D
