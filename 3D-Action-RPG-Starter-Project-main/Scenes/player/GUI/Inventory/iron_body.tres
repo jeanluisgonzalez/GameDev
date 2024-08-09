@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3 uid="uid://b426bn7rneduw"]
+
+[ext_resource type="Script" path="res://Scripts/player/GUI/Inventory/item_data.gd" id="1_2y2ct"]
+[ext_resource type="Texture2D" uid="uid://bqw11syqkiqou" path="res://Assets/16x16 RPG Item Pack/Item__57.png" id="1_coshr"]
+
+[resource]
+script = ExtResource("1_2y2ct")
+type = 2
+item_name = "Iron Body"
+item_damage = 3
+item_health = 0
+item_defense = 5
+stackable = false
+count = 0
+description = "This is a Iron Body"
+item_texture = ExtResource("1_coshr")

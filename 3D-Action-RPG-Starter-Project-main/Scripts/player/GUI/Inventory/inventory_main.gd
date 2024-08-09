@@ -9,6 +9,7 @@ func _ready() -> void:
 		grid.add_child(slot)
 	add_item("Long Sword")
 	add_item("Small Potion")
+	add_item("Iron Armor")
 func add_item(item_name: String) -> void :
 	var item = InventoryItem.new()
 	item.init(Game.items[item_name])

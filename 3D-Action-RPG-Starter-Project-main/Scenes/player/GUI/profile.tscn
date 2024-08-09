@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfdki6jb748dy"]
+
+[ext_resource type="Script" path="res://Scripts/player/GUI/profile.gd" id="1_payyp"]
+
+[node name="profile" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_payyp")
+
+[node name="stats_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 184.0
+offset_right = 768.0
+offset_bottom = 376.0
+text = "this is a text"
+horizontal_alignment = 1
+vertical_alignment = 1

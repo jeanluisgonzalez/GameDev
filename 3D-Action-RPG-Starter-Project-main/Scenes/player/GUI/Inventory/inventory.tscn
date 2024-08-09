@@ -20,40 +20,52 @@ columns = 6
 
 [node name="right_hand" type="PanelContainer" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 152.0
-offset_right = 312.0
-offset_bottom = 192.0
+offset_left = 336.0
+offset_top = 248.0
+offset_right = 376.0
+offset_bottom = 288.0
+script = ExtResource("2_knw6v")
+
+[node name="left_hand" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_left = 464.0
+offset_top = 248.0
+offset_right = 504.0
+offset_bottom = 288.0
 script = ExtResource("2_knw6v")
 
 [node name="body" type="PanelContainer" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 216.0
-offset_right = 312.0
-offset_bottom = 256.0
+offset_left = 400.0
+offset_top = 248.0
+offset_right = 440.0
+offset_bottom = 288.0
 script = ExtResource("2_knw6v")
+type = 2
 
 [node name="head" type="PanelContainer" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 280.0
-offset_right = 312.0
-offset_bottom = 320.0
+offset_left = 400.0
+offset_top = 192.0
+offset_right = 440.0
+offset_bottom = 232.0
 script = ExtResource("2_knw6v")
+type = 1
 
-[node name="legs" type="PanelContainer" parent="."]
+[node name="belt" type="PanelContainer" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 344.0
-offset_right = 312.0
-offset_bottom = 384.0
+offset_left = 400.0
+offset_top = 304.0
+offset_right = 440.0
+offset_bottom = 328.0
 script = ExtResource("2_knw6v")
+type = 3
 
 [node name="feet" type="PanelContainer" parent="."]
 layout_mode = 0
-offset_left = 272.0
-offset_top = 408.0
-offset_right = 312.0
-offset_bottom = 448.0
+offset_left = 400.0
+offset_top = 344.0
+offset_right = 440.0
+offset_bottom = 384.0
 script = ExtResource("2_knw6v")
+type = 4

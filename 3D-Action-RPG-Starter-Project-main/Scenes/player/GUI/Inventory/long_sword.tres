@@ -7,7 +7,7 @@
 script = ExtResource("2_ogswl")
 type = 0
 item_name = "Iron Sword"
-item_damage = 5
+item_damage = 10
 item_health = 0
 item_defense = 0
 stackable = false

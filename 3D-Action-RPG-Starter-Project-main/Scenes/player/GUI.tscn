@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bk1aibxatkj6m"]
+[gd_scene load_steps=4 format=3 uid="uid://bk1aibxatkj6m"]
 
 [ext_resource type="Script" path="res://Scripts/player/GUI/gui.gd" id="1_amv2n"]
 [ext_resource type="PackedScene" uid="uid://c41ryjbqt3omm" path="res://Scenes/player/GUI/Inventory/inventory.tscn" id="2_kxgpp"]
+[ext_resource type="PackedScene" uid="uid://cfdki6jb748dy" path="res://Scenes/player/GUI/profile.tscn" id="3_cyueu"]
 
 [node name="GUI" type="CanvasLayer"]
 process_mode = 3
@@ -22,17 +23,14 @@ offset_bottom = 584.0
 
 [node name="inventory" parent="container" instance=ExtResource("2_kxgpp")]
 
-[node name="profile" type="Control" parent="container"]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="profile" parent="container" instance=ExtResource("3_cyueu")]
 
 [node name="VBoxContainer" type="VBoxContainer" parent="container"]
 layout_mode = 0
-offset_left = 112.0
-offset_top = 131.0
-offset_right = 310.0
-offset_bottom = 202.0
+offset_left = 104.0
+offset_top = 232.0
+offset_right = 302.0
+offset_bottom = 316.0
 
 [node name="inventory_button" type="Button" parent="container/VBoxContainer"]
 layout_mode = 2
