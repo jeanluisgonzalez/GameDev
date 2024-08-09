@@ -35,7 +35,7 @@ var just_hit: bool
 
 @onready var camrot_h = get_node("camroot/h")
 
-var health: int = 5
+
 
 func _ready() -> void:
 	pass
@@ -113,14 +113,18 @@ func attack1():
 
 func _on_damage_detector_body_entered(body):
 	if body.is_in_group("monster") and is_attacking:
-		body.hit(2)
+		body.hit(Game.player_damage)
 
 func hit(damage: int):
 	if !just_hit:
-		just_hit = true
+		
 		get_node("just_hit").start()
-		health -= damage
-		if health < 0:
+		var damage_done = damage - Game.player_defense
+		
+		if damage_done > 0:
+			Game.player_health -= damage_done
+			just_hit = true
+		if Game.player_health <= 0:
 			is_dying = true
 			playback.travel(death_node_name)
 		#knockback
