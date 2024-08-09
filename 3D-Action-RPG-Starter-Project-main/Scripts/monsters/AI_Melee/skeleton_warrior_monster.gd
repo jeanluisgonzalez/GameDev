@@ -7,7 +7,7 @@ var direction: Vector3
 var Awakening: bool = false
 var Attacking: bool = false
 var health: int = 4
-var damage: int = 2
+var damage: int = 3
 var dying: bool = false
 var just_hit: bool = false
 
@@ -78,4 +78,4 @@ func _on_just_hit_timeout():
 
 func _on_damage_detector_body_entered(body):
 	if body.is_in_group("player"):
-		body.hit(2)
+		body.hit(damage)

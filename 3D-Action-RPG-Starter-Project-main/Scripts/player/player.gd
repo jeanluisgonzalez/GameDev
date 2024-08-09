@@ -122,7 +122,7 @@ func hit(damage: int):
 		var damage_done = damage - Game.player_defense
 		
 		if damage_done > 0:
-			Game.player_health -= damage_done
+			Game.damage_player(damage_done)
 			just_hit = true
 		if Game.player_health <= 0:
 			is_dying = true
