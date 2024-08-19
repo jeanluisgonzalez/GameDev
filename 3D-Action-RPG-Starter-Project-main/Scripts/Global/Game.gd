@@ -40,4 +40,6 @@ func heal_player(amount: int) -> void:
 func damage_player(amount: int) -> void:
 	self.emit_signal("health_changed",amount)
 	player_health -= amount 
-	
+
+func gain_exp(amount:int) -> void:
+	pass	

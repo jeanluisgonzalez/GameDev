@@ -1,6 +1,7 @@
 extends CharacterBody3D
 
 var speed: float = 1.0
+@onready var item_object_scene = preload("res://Scenes/item_object.tscn")
 @onready var state_controller = get_node("StateMachine")
 @export var player: CharacterBody3D
 var direction: Vector3
@@ -59,6 +60,12 @@ func _on_animation_tree_animation_finished(anim_name):
 		death()
 
 func death():
+	var rng = randi_range(2,4)
+	for i in rng:
+		var item_object_temp = item_object_scene.instantiate()
+		item_object_temp.global_position = self.global_position
+		get_node("../../Items").add_child(item_object_temp)
+	Game.gain_exp(100)
 	self.queue_free()
 
 func hit(damage: int):
