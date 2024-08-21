@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("2_ogswl")
 type = 0
-item_name = "Iron Sword"
+item_name = "Long Sword"
 item_damage = 10
 item_health = 0
 item_defense = 0

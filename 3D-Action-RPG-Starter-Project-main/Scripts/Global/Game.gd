@@ -7,8 +7,7 @@ var items:Dictionary = {
 	"Long Sword": preload("res://Scenes/player/GUI/Inventory/long_sword.tres"),
 	"Iron Sword": preload("res://Scenes/player/GUI/Inventory/iron_sword.tres"),
 	"Small Potion": preload("res://Scenes/player/GUI/Inventory/small_potion.tres"),
-	"Iron Armor": preload("res://Scenes/player/GUI/Inventory/iron_body.tres"),
-	
+	"Iron Armor": preload("res://Scenes/player/GUI/Inventory/iron_body.tres"),	
 }
 var gold: int = 100
 var player_health: int = 5
@@ -23,7 +22,7 @@ var current_exp: int = 0
 var exp_to_next_level: int = 100
 var player_level: int = 1
 
-var shooping: bool = false
+var shopping: bool = false
 
 func _ready():
 	self.process_mode = Node.PROCESS_MODE_ALWAYS
@@ -41,5 +40,16 @@ func damage_player(amount: int) -> void:
 	self.emit_signal("health_changed",amount)
 	player_health -= amount 
 
-func gain_exp(amount:int) -> void:
-	pass	
+func gain_exp(exp_amount:int) -> void:
+	current_exp +=	exp_amount
+	while current_exp >= exp_to_next_level:
+		self.emit_signal("level_up")
+		player_level += 1
+		player_health_max += player_level*10
+		player_health = player_health_max
+		current_exp -= exp_to_next_level
+		exp_to_next_level = round(exp_to_next_level*1.3)
+		exp_to_next_level = exp_to_next_level * pow(1.2, player_level - 1)
+		
+		
+		

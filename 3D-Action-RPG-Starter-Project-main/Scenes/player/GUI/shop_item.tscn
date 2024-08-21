@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyopxjepmiyj2"]
+
+[ext_resource type="Texture2D" uid="uid://dfoaffaa5lkyc" path="res://Assets/16x16 RPG Item Pack/Item__03.png" id="1_ap23s"]
+[ext_resource type="Script" path="res://Scripts/player/GUI/shop_item.gd" id="1_reicf"]
+
+[node name="shop_item" type="Panel"]
+custom_minimum_size = Vector2(64, 64)
+offset_right = 64.0
+offset_bottom = 64.0
+script = ExtResource("1_reicf")
+
+[node name="image" type="Sprite2D" parent="."]
+position = Vector2(32, 32)
+scale = Vector2(3, 3)
+texture = ExtResource("1_ap23s")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_right = 86.4465
+offset_bottom = 64.0
+scale = Vector2(0.75, 1)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

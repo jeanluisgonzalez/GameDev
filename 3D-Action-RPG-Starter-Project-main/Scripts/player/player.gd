@@ -38,7 +38,8 @@ var just_hit: bool
 
 
 func _ready() -> void:
-	pass
+	var gameNode = get_node(Game.get_path())
+	gameNode.level_up.connect(Callable(self, "_on_level_up"))
 func _input(event:InputEvent):
 	if event is InputEventMouseMotion:
 		aim_turn = -event.relative.x * 0.015
@@ -140,3 +141,6 @@ func _on_animation_tree_animation_finished(anim_name):
 
 func _on_just_hit_timeout():
 	just_hit = false
+
+func _on_level_up():
+	print(Game.player_level)
