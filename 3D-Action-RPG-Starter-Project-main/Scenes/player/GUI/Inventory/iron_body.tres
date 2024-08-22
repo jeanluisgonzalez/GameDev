@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_2y2ct")
 type = 2
-item_name = "Iron Body"
+item_name = "Iron Armor"
 item_damage = 3
 item_health = 0
 item_defense = 5
