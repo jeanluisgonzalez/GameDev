@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c5hvool36ljcj"]
+[gd_scene load_steps=10 format=3 uid="uid://c5hvool36ljcj"]
 
 [ext_resource type="MeshLibrary" uid="uid://d4fjmd4uilet" path="res://Scenes/Levels/library.tres" id="1_acjf2"]
 [ext_resource type="PackedScene" uid="uid://cwgnft2vgvu0l" path="res://Scenes/player/player.tscn" id="2_grvq5"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bq2ahw3fli6lv" path="res://Scenes/player/GUI/gameover_overlay.tscn" id="4_xn8c7"]
 [ext_resource type="PackedScene" uid="uid://bk1aibxatkj6m" path="res://Scenes/player/GUI.tscn" id="5_wyk2k"]
 [ext_resource type="PackedScene" uid="uid://b6ktxmau8yekt" path="res://Scenes/item_object.tscn" id="6_pqbh4"]
+[ext_resource type="PackedScene" uid="uid://ci2ou7uhx616k" path="res://Scenes/torch.tscn" id="7_3uc7i"]
 [ext_resource type="PackedScene" uid="uid://b1laml4axmouh" path="res://Scenes/NPC_Mage.tscn" id="7_wxpq6"]
 
 [sub_resource type="Environment" id="Environment_fbqul"]
@@ -60,6 +61,15 @@ player = NodePath("../../player")
 
 [node name="NPC_Mage" parent="Objects" instance=ExtResource("7_wxpq6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3093, -1.95553, -12.1732)
+
+[node name="Torch" parent="Objects" instance=ExtResource("7_3uc7i")]
+transform = Transform3D(-0.0191974, 0, -0.999816, 0, 1, 0, 0.999816, 0, -0.0191974, 5.63436, 0.0464062, -25.706)
+
+[node name="Torch2" parent="Objects" instance=ExtResource("7_3uc7i")]
+transform = Transform3D(-0.0191974, 0, -0.999816, 0, 1, 0, 0.999816, 0, -0.0191974, 5.63436, 0.0464062, -18.706)
+
+[node name="Torch3" parent="Objects" instance=ExtResource("7_3uc7i")]
+transform = Transform3D(-0.0191974, 0, -0.999816, 0, 1, 0, 0.999816, 0, -0.0191974, 5.63436, 0.0464062, -9.70602)
 
 [node name="Items" type="Node3D" parent="."]
 
