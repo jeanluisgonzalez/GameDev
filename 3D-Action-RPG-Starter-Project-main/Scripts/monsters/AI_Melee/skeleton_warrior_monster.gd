@@ -60,13 +60,14 @@ func _on_animation_tree_animation_finished(anim_name):
 		death()
 
 func death():
+	get_node("HIT_VFX/AnimationPlayer").play("hit")
 	var rng = randi_range(2,4)
 	for i in rng:
 		var item_object_temp = item_object_scene.instantiate()
 		item_object_temp.global_position = self.global_position
 		get_node("../../Items").add_child(item_object_temp)
 	Game.gain_exp(100)
-	self.queue_free()
+	get_node("Skeleton_Warrior").hide()
 
 func hit(damage: int):
 	if !just_hit:
@@ -86,3 +87,7 @@ func _on_just_hit_timeout():
 func _on_damage_detector_body_entered(body):
 	if body.is_in_group("player"):
 		body.hit(damage)
+
+
+func _on_animation_player_animation_finished(anim_name):
+	self.queue_free()

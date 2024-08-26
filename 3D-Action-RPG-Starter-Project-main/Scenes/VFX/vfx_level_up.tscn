@@ -1,0 +1,189 @@
+[gd_scene load_steps=26 format=3 uid="uid://dqnwwld64dnkw"]
+
+[ext_resource type="Shader" uid="uid://ch61x0cm8vo8p" path="res://Scenes/player/s_cylinderAura.tres" id="1_52xg5"]
+[ext_resource type="Texture2D" uid="uid://4yxd0gw486dx" path="res://Assets/VFX/Textures/T_PerlinNoise_Tiled.png" id="2_qrv24"]
+[ext_resource type="ArrayMesh" uid="uid://1p05haj1ifk8" path="res://Assets/VFX_New/cylinder_long.obj" id="3_7qp26"]
+[ext_resource type="Texture2D" uid="uid://v8r288glr1u6" path="res://Assets/VFX/Textures/T_Aurax12.jpg" id="4_4o6xw"]
+[ext_resource type="Texture2D" uid="uid://d15gar3cnasx2" path="res://Assets/VFX/Textures/T_VFX_Level_UP4.png" id="5_5y5xc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4ymak"]
+render_priority = 0
+shader = ExtResource("1_52xg5")
+shader_parameter/Speed = Vector2(1.5, 3)
+shader_parameter/Aura_Texture = ExtResource("2_qrv24")
+
+[sub_resource type="Curve" id="Curve_1h8sr"]
+_data = [Vector2(0.0257732, 0.0219779), 0.0, 0.0, 0, 0, Vector2(0.252577, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_rtkdv"]
+texture_mode = 1
+curve = SubResource("Curve_1h8sr")
+
+[sub_resource type="Curve" id="Curve_id1x6"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_gi66n"]
+_data = [Vector2(0.0360825, 0), 0.0, 0.0, 0, 0, Vector2(0.989691, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_fo45f"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_t7vxw"]
+curve_x = SubResource("Curve_id1x6")
+curve_y = SubResource("Curve_gi66n")
+curve_z = SubResource("Curve_fo45f")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_gwbfn"]
+gravity = Vector3(0, 0, 0)
+scale_min = 4.0
+scale_max = 4.0
+scale_curve = SubResource("CurveXYZTexture_t7vxw")
+color = Color(2.5, 2, 0.5, 1)
+alpha_curve = SubResource("CurveTexture_rtkdv")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vruk0"]
+render_priority = 0
+shader = ExtResource("1_52xg5")
+shader_parameter/Speed = Vector2(1, 3)
+shader_parameter/Aura_Texture = ExtResource("4_4o6xw")
+
+[sub_resource type="Curve" id="Curve_qdyk5"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_egnrx"]
+_data = [Vector2(0, 0.736264), 0.0, 0.0, 0, 0, Vector2(0.958763, 0.010989), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_7hqmk"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_gbnph"]
+curve_x = SubResource("Curve_qdyk5")
+curve_y = SubResource("Curve_egnrx")
+curve_z = SubResource("Curve_7hqmk")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7abms"]
+gravity = Vector3(0, 0, 0)
+scale_min = 8.0
+scale_max = 8.0
+scale_curve = SubResource("CurveXYZTexture_gbnph")
+color = Color(2.5, 2, 0.5, 1)
+alpha_curve = SubResource("CurveTexture_rtkdv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fjao3"]
+transparency = 1
+shading_mode = 0
+vertex_color_use_as_albedo = true
+vertex_color_is_srgb = true
+albedo_texture = ExtResource("5_5y5xc")
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_d0vk5"]
+
+[sub_resource type="Curve" id="Curve_5daqs"]
+_data = [Vector2(0, 0.043956), 0.0, 0.0, 0, 0, Vector2(0.145299, 1), 0.0, 0.0, 0, 0, Vector2(0.5, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Gradient" id="Gradient_s42jh"]
+offsets = PackedFloat32Array(0, 0.00485437, 0.184466, 1)
+colors = PackedColorArray(1, 1, 1, 0.12069, 1, 1, 1, 0, 0.762404, 0.762404, 0.762404, 1, 1, 1, 1, 0.172414)
+
+[sub_resource type="Animation" id="Animation_a33po"]
+resource_name = "default"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Aura Cylinder 1:emitting")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Aura Cylinder 2:emitting")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Level Up Text:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.166667),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1l8we"]
+_data = {
+"default": SubResource("Animation_a33po")
+}
+
+[node name="VFX_LevelUP" type="Node3D"]
+
+[node name="Aura Cylinder 1" type="GPUParticles3D" parent="."]
+material_override = SubResource("ShaderMaterial_4ymak")
+cast_shadow = 0
+emitting = false
+amount = 1
+one_shot = true
+process_material = SubResource("ParticleProcessMaterial_gwbfn")
+draw_pass_1 = ExtResource("3_7qp26")
+
+[node name="Aura Cylinder 2" type="GPUParticles3D" parent="."]
+material_override = SubResource("ShaderMaterial_vruk0")
+cast_shadow = 0
+emitting = false
+amount = 1
+one_shot = true
+process_material = SubResource("ParticleProcessMaterial_7abms")
+draw_pass_1 = ExtResource("3_7qp26")
+
+[node name="Level Up Text" type="CPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.126145, 4.7617, 0)
+material_override = SubResource("StandardMaterial3D_fjao3")
+emitting = false
+amount = 1
+one_shot = true
+mesh = SubResource("QuadMesh_d0vk5")
+direction = Vector3(0, 1, 0)
+spread = 0.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 2.5
+initial_velocity_max = 2.5
+damping_min = 0.8
+damping_max = 1.0
+scale_amount_min = 4.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_5daqs")
+color = Color(2.5, 2, 0.5, 1)
+color_ramp = SubResource("Gradient_s42jh")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_1l8we")
+}

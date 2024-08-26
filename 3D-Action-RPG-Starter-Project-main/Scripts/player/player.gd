@@ -115,7 +115,7 @@ func attack1():
 func _on_damage_detector_body_entered(body):
 	if body.is_in_group("monster") and is_attacking:
 		body.hit(Game.player_damage)
-
+		get_node("Knight/Rig/Skeleton3D/right_hand_slot/HIT VFX/AnimationPlayer").play("hit")
 func hit(damage: int):
 	if !just_hit:
 		
@@ -143,4 +143,4 @@ func _on_just_hit_timeout():
 	just_hit = false
 
 func _on_level_up():
-	print(Game.player_level)
+	get_node("VFX_Level_UP/AnimationPlayer").play("init")

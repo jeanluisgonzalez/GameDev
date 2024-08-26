@@ -1,0 +1,65 @@
+[gd_scene load_steps=11 format=3 uid="uid://dq8jd6rmgoxkq"]
+
+[ext_resource type="Shader" uid="uid://ccwl53bglvoav" path="res://Scenes/player/s_puff.tres" id="1_hr88n"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7qqnr"]
+render_priority = 0
+shader = ExtResource("1_hr88n")
+shader_parameter/Distance_Fade = 0.3
+
+[sub_resource type="Curve" id="Curve_lg3x3"]
+_data = [Vector2(0.0154639, 1), 0.0, 0.0, 0, 0, Vector2(0.5, 1), 0.0, 0.0, 0, 0, Vector2(0.994845, 0.010989), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_0rlx5"]
+texture_mode = 1
+curve = SubResource("Curve_lg3x3")
+
+[sub_resource type="Gradient" id="Gradient_noslc"]
+offsets = PackedFloat32Array(0, 0.10241, 0.987952)
+colors = PackedColorArray(0.4, 0.05, 1.2, 1, 0.2, 0.05, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_1t4o8"]
+gradient = SubResource("Gradient_noslc")
+use_hdr = true
+
+[sub_resource type="Curve" id="Curve_cjjdj"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.296703), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_rvo2k"]
+curve = SubResource("Curve_cjjdj")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_j2b2l"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 1, 0)
+emission_ring_height = 0.0
+emission_ring_radius = 1.0
+emission_ring_inner_radius = 1.0
+angle_min = -180.0
+angle_max = 180.0
+direction = Vector3(0, 1, 0)
+initial_velocity_min = 0.5
+initial_velocity_max = 1.0
+radial_velocity_min = 0.999978
+radial_velocity_max = 1.99998
+gravity = Vector3(0, 0, 0)
+scale_max = 3.0
+scale_curve = SubResource("CurveTexture_rvo2k")
+color_ramp = SubResource("GradientTexture1D_1t4o8")
+alpha_curve = SubResource("CurveTexture_0rlx5")
+
+[sub_resource type="SphereMesh" id="SphereMesh_fnhwy"]
+
+[node name="VFX_PUFF" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5665, 0, 0)
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.06345, 0, 0)
+material_override = SubResource("ShaderMaterial_7qqnr")
+emitting = false
+amount = 12
+one_shot = true
+explosiveness = 0.85
+process_material = SubResource("ParticleProcessMaterial_j2b2l")
+draw_pass_1 = SubResource("SphereMesh_fnhwy")
