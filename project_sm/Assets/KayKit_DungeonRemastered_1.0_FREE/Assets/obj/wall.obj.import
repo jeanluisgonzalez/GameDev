@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dfeiti0tli086"
-path="res://.godot/imported/wall.obj-9279dfcb57762cd6a711c9da1a3cada4.mesh"
+path="res://.godot/imported/wall.obj-b3879b93675f409a161125690fad62fa.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall.obj-9279dfcb57762cd6a711c9da1a3cada4.mesh"]
+files=["res://.godot/imported/wall.obj-b3879b93675f409a161125690fad62fa.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall.obj"
-dest_files=["res://.godot/imported/wall.obj-9279dfcb57762cd6a711c9da1a3cada4.mesh", "res://.godot/imported/wall.obj-9279dfcb57762cd6a711c9da1a3cada4.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall.obj"
+dest_files=["res://.godot/imported/wall.obj-b3879b93675f409a161125690fad62fa.mesh", "res://.godot/imported/wall.obj-b3879b93675f409a161125690fad62fa.mesh"]
 
 [params]
 

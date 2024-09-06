@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://72bvhrg6gkt"
-path="res://.godot/imported/stool.gltf.glb-f052a27cf55aded74f9d0ecd3045340c.scn"
+path="res://.godot/imported/stool.gltf.glb-e24f607035ef07163c5a052d75180f9e.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/stool.gltf.glb"
-dest_files=["res://.godot/imported/stool.gltf.glb-f052a27cf55aded74f9d0ecd3045340c.scn"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/stool.gltf.glb"
+dest_files=["res://.godot/imported/stool.gltf.glb-e24f607035ef07163c5a052d75180f9e.scn"]
 
 [params]
 
@@ -17,6 +17,7 @@ nodes/root_type=""
 nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
 meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true
@@ -28,6 +29,7 @@ animation/import=true
 animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={}
 gltf/naming_version=1

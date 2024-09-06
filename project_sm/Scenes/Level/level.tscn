@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxdq1dv6kqvhk"]
+
+[ext_resource type="PackedScene" uid="uid://rkaifgulmwv4" path="res://Scenes/Level/ProtoLevel.tscn" id="1_0xifw"]
+[ext_resource type="PackedScene" uid="uid://cheeidr6x50ci" path="res://Scenes/Player/player.tscn" id="2_v2q3g"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ProtoLevel" parent="." instance=ExtResource("1_0xifw")]
+
+[node name="Player" parent="." instance=ExtResource("2_v2q3g")]

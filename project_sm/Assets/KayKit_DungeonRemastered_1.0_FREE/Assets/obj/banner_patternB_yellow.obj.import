@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bba6oea6ignb1"
-path="res://.godot/imported/banner_patternB_yellow.obj-4a0d5e80806ec2bd4aac1496449ba313.mesh"
+path="res://.godot/imported/banner_patternB_yellow.obj-a0345c4c699d0af688bd05aed57f2b7d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banner_patternB_yellow.obj-4a0d5e80806ec2bd4aac1496449ba313.mesh"]
+files=["res://.godot/imported/banner_patternB_yellow.obj-a0345c4c699d0af688bd05aed57f2b7d.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_patternB_yellow.obj"
-dest_files=["res://.godot/imported/banner_patternB_yellow.obj-4a0d5e80806ec2bd4aac1496449ba313.mesh", "res://.godot/imported/banner_patternB_yellow.obj-4a0d5e80806ec2bd4aac1496449ba313.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_patternB_yellow.obj"
+dest_files=["res://.godot/imported/banner_patternB_yellow.obj-a0345c4c699d0af688bd05aed57f2b7d.mesh", "res://.godot/imported/banner_patternB_yellow.obj-a0345c4c699d0af688bd05aed57f2b7d.mesh"]
 
 [params]
 

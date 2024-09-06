@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bmnsn6uffrrni"
-path="res://.godot/imported/keg_decorated.obj-9d4a03cb9ff9a78ead0a5e9ef6e67b50.mesh"
+path="res://.godot/imported/keg_decorated.obj-f7d9915981088657fb6f70495ea985e8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/keg_decorated.obj-9d4a03cb9ff9a78ead0a5e9ef6e67b50.mesh"]
+files=["res://.godot/imported/keg_decorated.obj-f7d9915981088657fb6f70495ea985e8.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/keg_decorated.obj"
-dest_files=["res://.godot/imported/keg_decorated.obj-9d4a03cb9ff9a78ead0a5e9ef6e67b50.mesh", "res://.godot/imported/keg_decorated.obj-9d4a03cb9ff9a78ead0a5e9ef6e67b50.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/keg_decorated.obj"
+dest_files=["res://.godot/imported/keg_decorated.obj-f7d9915981088657fb6f70495ea985e8.mesh", "res://.godot/imported/keg_decorated.obj-f7d9915981088657fb6f70495ea985e8.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://btnwmxe325o2"
-path="res://.godot/imported/barrier_column.obj-f1491c2d62c05fd7d1fd9f58116f7176.mesh"
+path="res://.godot/imported/barrier_column.obj-9fa188a7e728214e6a6b6aaa3f5fc81f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrier_column.obj-f1491c2d62c05fd7d1fd9f58116f7176.mesh"]
+files=["res://.godot/imported/barrier_column.obj-9fa188a7e728214e6a6b6aaa3f5fc81f.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/barrier_column.obj"
-dest_files=["res://.godot/imported/barrier_column.obj-f1491c2d62c05fd7d1fd9f58116f7176.mesh", "res://.godot/imported/barrier_column.obj-f1491c2d62c05fd7d1fd9f58116f7176.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/barrier_column.obj"
+dest_files=["res://.godot/imported/barrier_column.obj-9fa188a7e728214e6a6b6aaa3f5fc81f.mesh", "res://.godot/imported/barrier_column.obj-9fa188a7e728214e6a6b6aaa3f5fc81f.mesh"]
 
 [params]
 

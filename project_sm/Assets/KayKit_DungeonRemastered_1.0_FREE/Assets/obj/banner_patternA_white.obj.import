@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d0nwomb3iwngj"
-path="res://.godot/imported/banner_patternA_white.obj-c626eb436ed350d0e008b5095cc6e702.mesh"
+path="res://.godot/imported/banner_patternA_white.obj-02c98390eafa1620167bb36c176831b7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banner_patternA_white.obj-c626eb436ed350d0e008b5095cc6e702.mesh"]
+files=["res://.godot/imported/banner_patternA_white.obj-02c98390eafa1620167bb36c176831b7.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_patternA_white.obj"
-dest_files=["res://.godot/imported/banner_patternA_white.obj-c626eb436ed350d0e008b5095cc6e702.mesh", "res://.godot/imported/banner_patternA_white.obj-c626eb436ed350d0e008b5095cc6e702.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_patternA_white.obj"
+dest_files=["res://.godot/imported/banner_patternA_white.obj-02c98390eafa1620167bb36c176831b7.mesh", "res://.godot/imported/banner_patternA_white.obj-02c98390eafa1620167bb36c176831b7.mesh"]
 
 [params]
 

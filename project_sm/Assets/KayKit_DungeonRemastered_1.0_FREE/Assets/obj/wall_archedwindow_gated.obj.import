@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://xvccm18rd7t0"
-path="res://.godot/imported/wall_archedwindow_gated.obj-c6788a90e42f396b7cfa8ecb2a465a6d.mesh"
+path="res://.godot/imported/wall_archedwindow_gated.obj-a3b099f60816aee724f577463bdf6b4e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_archedwindow_gated.obj-c6788a90e42f396b7cfa8ecb2a465a6d.mesh"]
+files=["res://.godot/imported/wall_archedwindow_gated.obj-a3b099f60816aee724f577463bdf6b4e.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_archedwindow_gated.obj"
-dest_files=["res://.godot/imported/wall_archedwindow_gated.obj-c6788a90e42f396b7cfa8ecb2a465a6d.mesh", "res://.godot/imported/wall_archedwindow_gated.obj-c6788a90e42f396b7cfa8ecb2a465a6d.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_archedwindow_gated.obj"
+dest_files=["res://.godot/imported/wall_archedwindow_gated.obj-a3b099f60816aee724f577463bdf6b4e.mesh", "res://.godot/imported/wall_archedwindow_gated.obj-a3b099f60816aee724f577463bdf6b4e.mesh"]
 
 [params]
 

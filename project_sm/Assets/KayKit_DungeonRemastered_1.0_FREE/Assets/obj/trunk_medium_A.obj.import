@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://djdvwye5jqjpb"
-path="res://.godot/imported/trunk_medium_A.obj-975fdefe44d109bb70b9ceebd93dde0e.mesh"
+path="res://.godot/imported/trunk_medium_A.obj-8b1e8b3f82efbf77744a13afd433db2f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/trunk_medium_A.obj-975fdefe44d109bb70b9ceebd93dde0e.mesh"]
+files=["res://.godot/imported/trunk_medium_A.obj-8b1e8b3f82efbf77744a13afd433db2f.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/trunk_medium_A.obj"
-dest_files=["res://.godot/imported/trunk_medium_A.obj-975fdefe44d109bb70b9ceebd93dde0e.mesh", "res://.godot/imported/trunk_medium_A.obj-975fdefe44d109bb70b9ceebd93dde0e.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/trunk_medium_A.obj"
+dest_files=["res://.godot/imported/trunk_medium_A.obj-8b1e8b3f82efbf77744a13afd433db2f.mesh", "res://.godot/imported/trunk_medium_A.obj-8b1e8b3f82efbf77744a13afd433db2f.mesh"]
 
 [params]
 

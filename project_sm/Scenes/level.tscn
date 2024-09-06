@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dxdq1dv6kqvhk"]
-
-[sub_resource type="MeshLibrary" id="MeshLibrary_vmbi3"]
-
-[node name="Level" type="Node3D"]
-
-[node name="GridMap" type="GridMap" parent="."]
-mesh_library = SubResource("MeshLibrary_vmbi3")

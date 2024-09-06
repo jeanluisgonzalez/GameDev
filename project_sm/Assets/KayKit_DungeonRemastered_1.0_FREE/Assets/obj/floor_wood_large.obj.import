@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dvlr03gswspmf"
-path="res://.godot/imported/floor_wood_large.obj-758e1a8295abcef94d54041b3c3ab511.mesh"
+path="res://.godot/imported/floor_wood_large.obj-07fd3fde11124a908a600d08a6462c3c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_wood_large.obj-758e1a8295abcef94d54041b3c3ab511.mesh"]
+files=["res://.godot/imported/floor_wood_large.obj-07fd3fde11124a908a600d08a6462c3c.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_wood_large.obj"
-dest_files=["res://.godot/imported/floor_wood_large.obj-758e1a8295abcef94d54041b3c3ab511.mesh", "res://.godot/imported/floor_wood_large.obj-758e1a8295abcef94d54041b3c3ab511.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_wood_large.obj"
+dest_files=["res://.godot/imported/floor_wood_large.obj-07fd3fde11124a908a600d08a6462c3c.mesh", "res://.godot/imported/floor_wood_large.obj-07fd3fde11124a908a600d08a6462c3c.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dr65y3an3owll"
-path="res://.godot/imported/barrier_half.obj-bab789ffb35134dbfc0bbdb80f1bcc38.mesh"
+path="res://.godot/imported/barrier_half.obj-d2c153f9d8e03d84306f502bb6d2add4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrier_half.obj-bab789ffb35134dbfc0bbdb80f1bcc38.mesh"]
+files=["res://.godot/imported/barrier_half.obj-d2c153f9d8e03d84306f502bb6d2add4.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/barrier_half.obj"
-dest_files=["res://.godot/imported/barrier_half.obj-bab789ffb35134dbfc0bbdb80f1bcc38.mesh", "res://.godot/imported/barrier_half.obj-bab789ffb35134dbfc0bbdb80f1bcc38.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/barrier_half.obj"
+dest_files=["res://.godot/imported/barrier_half.obj-d2c153f9d8e03d84306f502bb6d2add4.mesh", "res://.godot/imported/barrier_half.obj-d2c153f9d8e03d84306f502bb6d2add4.mesh"]
 
 [params]
 

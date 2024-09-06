@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://behweehtpofnk"
-path="res://.godot/imported/banner_triple_blue.obj-c8a1bec93675320517fc1ed00570379e.mesh"
+path="res://.godot/imported/banner_triple_blue.obj-c79535678d91da20ce9b4945ff2e16fe.mesh"
 
 [deps]
 
-files=["res://.godot/imported/banner_triple_blue.obj-c8a1bec93675320517fc1ed00570379e.mesh"]
+files=["res://.godot/imported/banner_triple_blue.obj-c79535678d91da20ce9b4945ff2e16fe.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_triple_blue.obj"
-dest_files=["res://.godot/imported/banner_triple_blue.obj-c8a1bec93675320517fc1ed00570379e.mesh", "res://.godot/imported/banner_triple_blue.obj-c8a1bec93675320517fc1ed00570379e.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/banner_triple_blue.obj"
+dest_files=["res://.godot/imported/banner_triple_blue.obj-c79535678d91da20ce9b4945ff2e16fe.mesh", "res://.godot/imported/banner_triple_blue.obj-c79535678d91da20ce9b4945ff2e16fe.mesh"]
 
 [params]
 

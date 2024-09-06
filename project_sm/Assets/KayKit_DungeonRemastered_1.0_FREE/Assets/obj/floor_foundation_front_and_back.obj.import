@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c4undvxfivbpx"
-path="res://.godot/imported/floor_foundation_front_and_back.obj-eaedce1b3ecbba7f71d831a5670e8c33.mesh"
+path="res://.godot/imported/floor_foundation_front_and_back.obj-9c6cff257c6a2459487b68a5cefca72d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_foundation_front_and_back.obj-eaedce1b3ecbba7f71d831a5670e8c33.mesh"]
+files=["res://.godot/imported/floor_foundation_front_and_back.obj-9c6cff257c6a2459487b68a5cefca72d.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_foundation_front_and_back.obj"
-dest_files=["res://.godot/imported/floor_foundation_front_and_back.obj-eaedce1b3ecbba7f71d831a5670e8c33.mesh", "res://.godot/imported/floor_foundation_front_and_back.obj-eaedce1b3ecbba7f71d831a5670e8c33.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_foundation_front_and_back.obj"
+dest_files=["res://.godot/imported/floor_foundation_front_and_back.obj-9c6cff257c6a2459487b68a5cefca72d.mesh", "res://.godot/imported/floor_foundation_front_and_back.obj-9c6cff257c6a2459487b68a5cefca72d.mesh"]
 
 [params]
 

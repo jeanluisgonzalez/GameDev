@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpatadwttus74"
-path="res://.godot/imported/dungeon_remastered_sample2.png-dfce3eb9b70e2577e6f08915fe371f49.ctex"
+path="res://.godot/imported/dungeon_remastered_sample2.png-0c173f111cfd4b0e1ea9d00a8119e54f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Samples/dungeon_remastered_sample2.png"
-dest_files=["res://.godot/imported/dungeon_remastered_sample2.png-dfce3eb9b70e2577e6f08915fe371f49.ctex"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Samples/dungeon_remastered_sample2.png"
+dest_files=["res://.godot/imported/dungeon_remastered_sample2.png-0c173f111cfd4b0e1ea9d00a8119e54f.ctex"]
 
 [params]
 

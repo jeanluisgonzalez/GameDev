@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://0mkfh7utlr3t"
-path="res://.godot/imported/floor_dirt_small_corner.obj-9b4d9a49ed3931e3f038adfddd595de7.mesh"
+path="res://.godot/imported/floor_dirt_small_corner.obj-c772ab663a2bcc52cd9c13ed232a4b9c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_dirt_small_corner.obj-9b4d9a49ed3931e3f038adfddd595de7.mesh"]
+files=["res://.godot/imported/floor_dirt_small_corner.obj-c772ab663a2bcc52cd9c13ed232a4b9c.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_dirt_small_corner.obj"
-dest_files=["res://.godot/imported/floor_dirt_small_corner.obj-9b4d9a49ed3931e3f038adfddd595de7.mesh", "res://.godot/imported/floor_dirt_small_corner.obj-9b4d9a49ed3931e3f038adfddd595de7.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_dirt_small_corner.obj"
+dest_files=["res://.godot/imported/floor_dirt_small_corner.obj-c772ab663a2bcc52cd9c13ed232a4b9c.mesh", "res://.godot/imported/floor_dirt_small_corner.obj-c772ab663a2bcc52cd9c13ed232a4b9c.mesh"]
 
 [params]
 

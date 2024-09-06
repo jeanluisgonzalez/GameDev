@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dvqn1g4csal8l"
-path="res://.godot/imported/floor_tile_grate_open.gltf.glb-64a8b5e5907d0bebf268eeec3347b953.scn"
+path="res://.godot/imported/floor_tile_grate_open.gltf.glb-e8f4fb1dff07e3e376514e603a7827d1.scn"
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/floor_tile_grate_open.gltf.glb"
-dest_files=["res://.godot/imported/floor_tile_grate_open.gltf.glb-64a8b5e5907d0bebf268eeec3347b953.scn"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/floor_tile_grate_open.gltf.glb"
+dest_files=["res://.godot/imported/floor_tile_grate_open.gltf.glb-e8f4fb1dff07e3e376514e603a7827d1.scn"]
 
 [params]
 
@@ -17,6 +17,7 @@ nodes/root_type=""
 nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
 meshes/ensure_tangents=true
 meshes/generate_lods=true
 meshes/create_shadow_meshes=true
@@ -28,6 +29,7 @@ animation/import=true
 animation/fps=30
 animation/trimming=false
 animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={}
 gltf/naming_version=1

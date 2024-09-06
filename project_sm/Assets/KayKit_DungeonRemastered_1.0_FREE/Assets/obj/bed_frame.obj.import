@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ckdyg5kdpq3ss"
-path="res://.godot/imported/bed_frame.obj-c0f203324992bf58ad37ce78b77b6ac7.mesh"
+path="res://.godot/imported/bed_frame.obj-01b464f1204b9aea606c7c89460a2534.mesh"
 
 [deps]
 
-files=["res://.godot/imported/bed_frame.obj-c0f203324992bf58ad37ce78b77b6ac7.mesh"]
+files=["res://.godot/imported/bed_frame.obj-01b464f1204b9aea606c7c89460a2534.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/bed_frame.obj"
-dest_files=["res://.godot/imported/bed_frame.obj-c0f203324992bf58ad37ce78b77b6ac7.mesh", "res://.godot/imported/bed_frame.obj-c0f203324992bf58ad37ce78b77b6ac7.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/bed_frame.obj"
+dest_files=["res://.godot/imported/bed_frame.obj-01b464f1204b9aea606c7c89460a2534.mesh", "res://.godot/imported/bed_frame.obj-01b464f1204b9aea606c7c89460a2534.mesh"]
 
 [params]
 

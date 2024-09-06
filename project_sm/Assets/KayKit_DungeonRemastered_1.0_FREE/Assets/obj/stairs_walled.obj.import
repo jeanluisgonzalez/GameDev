@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://emtv7tn7jv67"
-path="res://.godot/imported/stairs_walled.obj-f282ddfc665526ba7544f871d6346658.mesh"
+path="res://.godot/imported/stairs_walled.obj-7ed6481187a6dd797a4e5aae973d48ab.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stairs_walled.obj-f282ddfc665526ba7544f871d6346658.mesh"]
+files=["res://.godot/imported/stairs_walled.obj-7ed6481187a6dd797a4e5aae973d48ab.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/stairs_walled.obj"
-dest_files=["res://.godot/imported/stairs_walled.obj-f282ddfc665526ba7544f871d6346658.mesh", "res://.godot/imported/stairs_walled.obj-f282ddfc665526ba7544f871d6346658.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/stairs_walled.obj"
+dest_files=["res://.godot/imported/stairs_walled.obj-7ed6481187a6dd797a4e5aae973d48ab.mesh", "res://.godot/imported/stairs_walled.obj-7ed6481187a6dd797a4e5aae973d48ab.mesh"]
 
 [params]
 

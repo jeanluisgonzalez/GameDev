@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://3f5aaqvxunr7"
-path="res://.godot/imported/stairs_wood.obj-4ce6bbc926e4a86408a2360942db2587.mesh"
+path="res://.godot/imported/stairs_wood.obj-f6d10411d949fe04f875badfc4c271a6.mesh"
 
 [deps]
 
-files=["res://.godot/imported/stairs_wood.obj-4ce6bbc926e4a86408a2360942db2587.mesh"]
+files=["res://.godot/imported/stairs_wood.obj-f6d10411d949fe04f875badfc4c271a6.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/stairs_wood.obj"
-dest_files=["res://.godot/imported/stairs_wood.obj-4ce6bbc926e4a86408a2360942db2587.mesh", "res://.godot/imported/stairs_wood.obj-4ce6bbc926e4a86408a2360942db2587.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/stairs_wood.obj"
+dest_files=["res://.godot/imported/stairs_wood.obj-f6d10411d949fe04f875badfc4c271a6.mesh", "res://.godot/imported/stairs_wood.obj-f6d10411d949fe04f875badfc4c271a6.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://btnia4wdmwf0v"
-path="res://.godot/imported/keyring.obj-1ba51ef7f1971860ffc194590acd9965.mesh"
+path="res://.godot/imported/keyring.obj-f2f68c19709377689f18d1f0274f8441.mesh"
 
 [deps]
 
-files=["res://.godot/imported/keyring.obj-1ba51ef7f1971860ffc194590acd9965.mesh"]
+files=["res://.godot/imported/keyring.obj-f2f68c19709377689f18d1f0274f8441.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/keyring.obj"
-dest_files=["res://.godot/imported/keyring.obj-1ba51ef7f1971860ffc194590acd9965.mesh", "res://.godot/imported/keyring.obj-1ba51ef7f1971860ffc194590acd9965.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/keyring.obj"
+dest_files=["res://.godot/imported/keyring.obj-f2f68c19709377689f18d1f0274f8441.mesh", "res://.godot/imported/keyring.obj-f2f68c19709377689f18d1f0274f8441.mesh"]
 
 [params]
 

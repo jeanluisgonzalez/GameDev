@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ule83umo3cwv"
-path="res://.godot/imported/candle.obj-24ea24e0af9c2c6632aba6c56c0bd217.mesh"
+path="res://.godot/imported/candle.obj-9b7d3051e81c1f213bc8123c382e1c1f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/candle.obj-24ea24e0af9c2c6632aba6c56c0bd217.mesh"]
+files=["res://.godot/imported/candle.obj-9b7d3051e81c1f213bc8123c382e1c1f.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/candle.obj"
-dest_files=["res://.godot/imported/candle.obj-24ea24e0af9c2c6632aba6c56c0bd217.mesh", "res://.godot/imported/candle.obj-24ea24e0af9c2c6632aba6c56c0bd217.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/candle.obj"
+dest_files=["res://.godot/imported/candle.obj-9b7d3051e81c1f213bc8123c382e1c1f.mesh", "res://.godot/imported/candle.obj-9b7d3051e81c1f213bc8123c382e1c1f.mesh"]
 
 [params]
 

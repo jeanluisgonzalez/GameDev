@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b6r136fdhms83"
-path="res://.godot/imported/table_long_tablecloth.obj-538d2315fcef59132952c2071ebbabb3.mesh"
+path="res://.godot/imported/table_long_tablecloth.obj-8f797f63440bdd8f706353ba8a511ad9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/table_long_tablecloth.obj-538d2315fcef59132952c2071ebbabb3.mesh"]
+files=["res://.godot/imported/table_long_tablecloth.obj-8f797f63440bdd8f706353ba8a511ad9.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/table_long_tablecloth.obj"
-dest_files=["res://.godot/imported/table_long_tablecloth.obj-538d2315fcef59132952c2071ebbabb3.mesh", "res://.godot/imported/table_long_tablecloth.obj-538d2315fcef59132952c2071ebbabb3.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/table_long_tablecloth.obj"
+dest_files=["res://.godot/imported/table_long_tablecloth.obj-8f797f63440bdd8f706353ba8a511ad9.mesh", "res://.godot/imported/table_long_tablecloth.obj-8f797f63440bdd8f706353ba8a511ad9.mesh"]
 
 [params]
 

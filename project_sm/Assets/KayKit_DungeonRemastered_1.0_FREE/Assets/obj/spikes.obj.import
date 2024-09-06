@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bk3w3m5hqs00t"
-path="res://.godot/imported/spikes.obj-68f8f55d0c7e5820511657601f1c311c.mesh"
+path="res://.godot/imported/spikes.obj-af387643ec91d4c605db7e0bbc55b2d1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/spikes.obj-68f8f55d0c7e5820511657601f1c311c.mesh"]
+files=["res://.godot/imported/spikes.obj-af387643ec91d4c605db7e0bbc55b2d1.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/spikes.obj"
-dest_files=["res://.godot/imported/spikes.obj-68f8f55d0c7e5820511657601f1c311c.mesh", "res://.godot/imported/spikes.obj-68f8f55d0c7e5820511657601f1c311c.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/spikes.obj"
+dest_files=["res://.godot/imported/spikes.obj-af387643ec91d4c605db7e0bbc55b2d1.mesh", "res://.godot/imported/spikes.obj-af387643ec91d4c605db7e0bbc55b2d1.mesh"]
 
 [params]
 

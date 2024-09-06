@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvybgk0vu6odj"
-path.s3tc="res://.godot/imported/trunk_large_A_dungeon_texture.png-ae8e419256f06a9bf249ec2c22a89216.s3tc.ctex"
+path.s3tc="res://.godot/imported/trunk_large_A_dungeon_texture.png-0fccd47315bbc3cb7c9272d1d7fb2488.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/trunk_large_A_dungeon_texture.png"
-dest_files=["res://.godot/imported/trunk_large_A_dungeon_texture.png-ae8e419256f06a9bf249ec2c22a89216.s3tc.ctex"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/trunk_large_A_dungeon_texture.png"
+dest_files=["res://.godot/imported/trunk_large_A_dungeon_texture.png-0fccd47315bbc3cb7c9272d1d7fb2488.s3tc.ctex"]
 
 [params]
 

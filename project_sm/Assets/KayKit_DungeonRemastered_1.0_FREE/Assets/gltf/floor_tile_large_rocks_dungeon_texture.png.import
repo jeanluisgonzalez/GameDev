@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wnpbvpg5nmnk"
-path.s3tc="res://.godot/imported/floor_tile_large_rocks_dungeon_texture.png-531a98b6bc0b1e7370f23931a3147ebd.s3tc.ctex"
+path.s3tc="res://.godot/imported/floor_tile_large_rocks_dungeon_texture.png-f982ce138c60deca95a98d5696b26e5a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/floor_tile_large_rocks_dungeon_texture.png"
-dest_files=["res://.godot/imported/floor_tile_large_rocks_dungeon_texture.png-531a98b6bc0b1e7370f23931a3147ebd.s3tc.ctex"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/floor_tile_large_rocks_dungeon_texture.png"
+dest_files=["res://.godot/imported/floor_tile_large_rocks_dungeon_texture.png-f982ce138c60deca95a98d5696b26e5a.s3tc.ctex"]
 
 [params]
 

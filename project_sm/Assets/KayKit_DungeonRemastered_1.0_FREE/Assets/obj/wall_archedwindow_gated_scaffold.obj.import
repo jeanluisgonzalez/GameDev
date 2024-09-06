@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://13nlynvrg00n"
-path="res://.godot/imported/wall_archedwindow_gated_scaffold.obj-15e217b0f2ea0afe38eeb4781a97de95.mesh"
+path="res://.godot/imported/wall_archedwindow_gated_scaffold.obj-157d6d49d65def5a1faef6b7b7e0867b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_archedwindow_gated_scaffold.obj-15e217b0f2ea0afe38eeb4781a97de95.mesh"]
+files=["res://.godot/imported/wall_archedwindow_gated_scaffold.obj-157d6d49d65def5a1faef6b7b7e0867b.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_archedwindow_gated_scaffold.obj"
-dest_files=["res://.godot/imported/wall_archedwindow_gated_scaffold.obj-15e217b0f2ea0afe38eeb4781a97de95.mesh", "res://.godot/imported/wall_archedwindow_gated_scaffold.obj-15e217b0f2ea0afe38eeb4781a97de95.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_archedwindow_gated_scaffold.obj"
+dest_files=["res://.godot/imported/wall_archedwindow_gated_scaffold.obj-157d6d49d65def5a1faef6b7b7e0867b.mesh", "res://.godot/imported/wall_archedwindow_gated_scaffold.obj-157d6d49d65def5a1faef6b7b7e0867b.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://tn4iguoh85i3"
-path="res://.godot/imported/wall_half_endcap_sloped.obj-6105018e0c943a3f4bc9272f52ea1a25.mesh"
+path="res://.godot/imported/wall_half_endcap_sloped.obj-d12b10c4d48e5b7f8d1701c728dbb4de.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_half_endcap_sloped.obj-6105018e0c943a3f4bc9272f52ea1a25.mesh"]
+files=["res://.godot/imported/wall_half_endcap_sloped.obj-d12b10c4d48e5b7f8d1701c728dbb4de.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_half_endcap_sloped.obj"
-dest_files=["res://.godot/imported/wall_half_endcap_sloped.obj-6105018e0c943a3f4bc9272f52ea1a25.mesh", "res://.godot/imported/wall_half_endcap_sloped.obj-6105018e0c943a3f4bc9272f52ea1a25.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_half_endcap_sloped.obj"
+dest_files=["res://.godot/imported/wall_half_endcap_sloped.obj-d12b10c4d48e5b7f8d1701c728dbb4de.mesh", "res://.godot/imported/wall_half_endcap_sloped.obj-d12b10c4d48e5b7f8d1701c728dbb4de.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://u026xqg8j1te"
-path="res://.godot/imported/rubble_half.obj-8132c9368955d7f8da7009e64d688c95.mesh"
+path="res://.godot/imported/rubble_half.obj-fb0e86e39a6ec16a2ec5640a2bcfd4ac.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rubble_half.obj-8132c9368955d7f8da7009e64d688c95.mesh"]
+files=["res://.godot/imported/rubble_half.obj-fb0e86e39a6ec16a2ec5640a2bcfd4ac.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/rubble_half.obj"
-dest_files=["res://.godot/imported/rubble_half.obj-8132c9368955d7f8da7009e64d688c95.mesh", "res://.godot/imported/rubble_half.obj-8132c9368955d7f8da7009e64d688c95.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/rubble_half.obj"
+dest_files=["res://.godot/imported/rubble_half.obj-fb0e86e39a6ec16a2ec5640a2bcfd4ac.mesh", "res://.godot/imported/rubble_half.obj-fb0e86e39a6ec16a2ec5640a2bcfd4ac.mesh"]
 
 [params]
 

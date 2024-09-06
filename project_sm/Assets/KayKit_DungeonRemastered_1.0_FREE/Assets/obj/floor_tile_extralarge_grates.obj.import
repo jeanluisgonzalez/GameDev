@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bfd7s548rbnbt"
-path="res://.godot/imported/floor_tile_extralarge_grates.obj-bef9dfba0b33d81cdafeed3d4a88d772.mesh"
+path="res://.godot/imported/floor_tile_extralarge_grates.obj-fb07a12a678f0170bf69a7d5e1c17ed4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_extralarge_grates.obj-bef9dfba0b33d81cdafeed3d4a88d772.mesh"]
+files=["res://.godot/imported/floor_tile_extralarge_grates.obj-fb07a12a678f0170bf69a7d5e1c17ed4.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_tile_extralarge_grates.obj"
-dest_files=["res://.godot/imported/floor_tile_extralarge_grates.obj-bef9dfba0b33d81cdafeed3d4a88d772.mesh", "res://.godot/imported/floor_tile_extralarge_grates.obj-bef9dfba0b33d81cdafeed3d4a88d772.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_tile_extralarge_grates.obj"
+dest_files=["res://.godot/imported/floor_tile_extralarge_grates.obj-fb07a12a678f0170bf69a7d5e1c17ed4.mesh", "res://.godot/imported/floor_tile_extralarge_grates.obj-fb07a12a678f0170bf69a7d5e1c17ed4.mesh"]
 
 [params]
 

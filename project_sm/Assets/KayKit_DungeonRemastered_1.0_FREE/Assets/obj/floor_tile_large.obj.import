@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b5eqnp1oq674d"
-path="res://.godot/imported/floor_tile_large.obj-02b7371708da0089846460e864ad8fbf.mesh"
+path="res://.godot/imported/floor_tile_large.obj-5e1d8b99bf463240ec36d020830d0a81.mesh"
 
 [deps]
 
-files=["res://.godot/imported/floor_tile_large.obj-02b7371708da0089846460e864ad8fbf.mesh"]
+files=["res://.godot/imported/floor_tile_large.obj-5e1d8b99bf463240ec36d020830d0a81.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_tile_large.obj"
-dest_files=["res://.godot/imported/floor_tile_large.obj-02b7371708da0089846460e864ad8fbf.mesh", "res://.godot/imported/floor_tile_large.obj-02b7371708da0089846460e864ad8fbf.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/floor_tile_large.obj"
+dest_files=["res://.godot/imported/floor_tile_large.obj-5e1d8b99bf463240ec36d020830d0a81.mesh", "res://.godot/imported/floor_tile_large.obj-5e1d8b99bf463240ec36d020830d0a81.mesh"]
 
 [params]
 

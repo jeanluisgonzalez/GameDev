@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dr76l4wuaunuo"
-path.s3tc="res://.godot/imported/plate_small_dungeon_texture.png-048043e2583a40fe4aa794bbb247abca.s3tc.ctex"
+path.s3tc="res://.godot/imported/plate_small_dungeon_texture.png-4c1ce70f6cd60602183b670daea698bb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/plate_small_dungeon_texture.png"
-dest_files=["res://.godot/imported/plate_small_dungeon_texture.png-048043e2583a40fe4aa794bbb247abca.s3tc.ctex"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/gltf/plate_small_dungeon_texture.png"
+dest_files=["res://.godot/imported/plate_small_dungeon_texture.png-4c1ce70f6cd60602183b670daea698bb.s3tc.ctex"]
 
 [params]
 

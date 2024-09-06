@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://pwhncgkwq2d"
-path="res://.godot/imported/wall_shelves.obj-ff011e13a73e938111061292a6c3adb0.mesh"
+path="res://.godot/imported/wall_shelves.obj-2f2d6134a05f603a35ae5e3865ff6551.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_shelves.obj-ff011e13a73e938111061292a6c3adb0.mesh"]
+files=["res://.godot/imported/wall_shelves.obj-2f2d6134a05f603a35ae5e3865ff6551.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_shelves.obj"
-dest_files=["res://.godot/imported/wall_shelves.obj-ff011e13a73e938111061292a6c3adb0.mesh", "res://.godot/imported/wall_shelves.obj-ff011e13a73e938111061292a6c3adb0.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_shelves.obj"
+dest_files=["res://.godot/imported/wall_shelves.obj-2f2d6134a05f603a35ae5e3865ff6551.mesh", "res://.godot/imported/wall_shelves.obj-2f2d6134a05f603a35ae5e3865ff6551.mesh"]
 
 [params]
 

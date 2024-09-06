@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://tdetfouw3pb4"
-path="res://.godot/imported/wall_corner_scaffold.obj-ec7f783d98da6a2bc6332ac4e94ed34c.mesh"
+path="res://.godot/imported/wall_corner_scaffold.obj-9f1e72a0251b4905779b0254d35ad550.mesh"
 
 [deps]
 
-files=["res://.godot/imported/wall_corner_scaffold.obj-ec7f783d98da6a2bc6332ac4e94ed34c.mesh"]
+files=["res://.godot/imported/wall_corner_scaffold.obj-9f1e72a0251b4905779b0254d35ad550.mesh"]
 
-source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_corner_scaffold.obj"
-dest_files=["res://.godot/imported/wall_corner_scaffold.obj-ec7f783d98da6a2bc6332ac4e94ed34c.mesh", "res://.godot/imported/wall_corner_scaffold.obj-ec7f783d98da6a2bc6332ac4e94ed34c.mesh"]
+source_file="res://Assets/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_corner_scaffold.obj"
+dest_files=["res://.godot/imported/wall_corner_scaffold.obj-9f1e72a0251b4905779b0254d35ad550.mesh", "res://.godot/imported/wall_corner_scaffold.obj-9f1e72a0251b4905779b0254d35ad550.mesh"]
 
 [params]
 
