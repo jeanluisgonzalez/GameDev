@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://dfwv5gg6yvj42"]
+
+[ext_resource type="Script" uid="uid://de1qof67s1um7" path="res://scripts/player.gd" id="1_3vyb7"]
+[ext_resource type="PackedScene" uid="uid://tfrxe0nyp5kh" path="res://Meshes/hero_male.glb" id="2_g2els"]
+[ext_resource type="Script" uid="uid://bwpd1q0r2o5yt" path="res://scripts/camera_rig.gd" id="2_qhqgy"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qhqgy"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6dws0"]
+
+[node name="Player" type="CharacterBody3D" unique_id=1104744420]
+script = ExtResource("1_3vyb7")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="." unique_id=1311961592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4809061, 0)
+shape = SubResource("SphereShape3D_qhqgy")
+script = ExtResource("2_qhqgy")
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D" unique_id=1900066310]
+transform = Transform3D(1, 0, 0, 0, 0.9983418, 0.057564024, 0, -0.057564024, 0.9983418, 0, 0.21, 3.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1990158858]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_6dws0")
+
+[node name="Mesh" parent="." unique_id=1625733825 instance=ExtResource("2_g2els")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Mesh/HeroRig_export" parent_id_path=PackedInt32Array(1625733825, 1225925025) index="0" unique_id=1379235203]
+bones/0/position = Vector3(0.019266011, 1.0754282, 1.1906231e-05)
+bones/0/rotation = Quaternion(1, 5.056924e-15, 1.0658141e-14, 6.16095e-08)
+bones/1/rotation = Quaternion(0.72837466, -0.0009660762, 0.0008508914, 0.68517786)
+bones/2/rotation = Quaternion(-0.8216728, -0.10056254, -0.060998417, 0.5576919)
+bones/3/rotation = Quaternion(0.3856036, -0.0038709652, 0.032296937, 0.92209107)
+bones/4/rotation = Quaternion(-0.22697215, -0.005327283, 0.081304744, 0.970487)
+bones/5/rotation = Quaternion(-0.8132401, 0.110372804, 0.08038564, 0.56568235)
+bones/6/rotation = Quaternion(0.36394107, 0.003908012, -0.030482516, 0.9309149)
+bones/7/rotation = Quaternion(-0.21304429, 0.008990414, -0.10577754, 0.9712582)
+bones/8/rotation = Quaternion(0.99109066, 2.9547557e-05, 1.6345577e-06, -0.13318886)
+bones/9/rotation = Quaternion(-0.06446282, 2.8165636e-07, -6.4309567e-09, 0.9979201)
+bones/10/rotation = Quaternion(-0.77400494, -0.014620449, -0.015901528, 0.63281095)
+bones/11/rotation = Quaternion(0.9804481, 0.18479852, 0.02350587, -0.06339261)
+bones/12/rotation = Quaternion(-0.30146566, 0.00677568, -0.024130713, 0.95314753)
+bones/13/rotation = Quaternion(-0.046641458, -0.110890165, 0.21614374, 0.9689221)
+bones/14/rotation = Quaternion(-0.43457532, 0.89500916, -0.07173615, 0.070404)
+bones/15/rotation = Quaternion(-0.1721431, 0.7210735, 0.19182459, 0.64313537)
+bones/16/rotation = Quaternion(-0.2176696, -0.0001069269, 0.00037533257, 0.9760225)
+bones/17/rotation = Quaternion(-0.18079056, -1.1645708e-06, -3.1288474e-07, 0.9835217)
+bones/18/rotation = Quaternion(-8.0007545e-08, -0.025844947, -2.1134604e-06, 0.99966604)
+bones/19/rotation = Quaternion(0.7206885, -0.6926366, -0.013503372, -0.026083525)
+bones/20/rotation = Quaternion(0.97932184, -0.20046708, -0.027214807, -0.0010128621)
+bones/21/rotation = Quaternion(-0.33620223, -0.0066925697, 0.026911829, 0.9413815)
+bones/22/rotation = Quaternion(-0.004530171, 0.024754353, -0.027899524, 0.9992939)
+bones/24/rotation = Quaternion(0.4345752, 0.89500934, -0.07173601, -0.07040387)
+bones/25/rotation = Quaternion(-0.17214315, -0.7210734, -0.19182467, 0.64313555)
+bones/26/rotation = Quaternion(-0.21766965, 0.00010679192, -0.0003753288, 0.9760225)
+bones/27/rotation = Quaternion(-0.18079045, 1.1404346e-06, 2.9008703e-07, 0.98352164)
+bones/28/rotation = Quaternion(2.643586e-08, -0.043401122, 2.209908e-06, 0.9990577)
+bones/29/rotation = Quaternion(0.99971575, 1.2521448e-08, -8.319377e-08, 0.023842245)
+bones/29/scale = Vector3(1, 1.0000001, 1.0000014)
+
+[node name="AnimationPlayer" parent="Mesh" index="1" unique_id=1368878368]
+autoplay = &"freehand_idle"
+
+[editable path="Mesh"]
