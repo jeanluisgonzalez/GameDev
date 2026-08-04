@@ -31,3 +31,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, speed)
 #
 	move_and_slide()
+	turn_to(direction)
+	
+func turn_to(direction: Vector3) -> void:
+		pass
