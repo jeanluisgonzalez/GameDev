@@ -1,3 +1,4 @@
+class_name Player
 extends CharacterBody3D
 
 @onready var anim_player: AnimationPlayer = $Mesh/AnimationPlayer
@@ -9,13 +10,18 @@ var last_lean := 0.0
 const JUMP_VELOCITY = 4.5
 @onready var camera:Node3D = $CameraRig/Camera3D
 
-func get_boosted_speed(boost_multiplier:float) -> float:
-	return speed * boost_multiplier
+## The current state that our player is in.
+var state: BasePlayerState = IdlePlayerState.new()
 	
-func _ready() -> void:
-	print(get_boosted_speed(10))
+## Changes the current player state and runs the correct functions
+func change_state_to(next_state :BasePlayerState) -> void:
+	state.exit(self)
+	state = next_state
+	state.enter(self)
 	
 func _physics_process(delta: float) -> void:
+	state.update(self, delta)
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -42,7 +48,10 @@ func _physics_process(delta: float) -> void:
 	var current_speed = velocity.length()
 	const RUN_SPEED = 3.5
 	const BLEND_SPEED = 0.2
-	if current_speed > RUN_SPEED:
+	
+	if not is_on_floor():
+		anim_tree.set("parameters/movement/transition_request", "fall")	
+	elif current_speed > RUN_SPEED:
 		anim_tree.set("parameters/movement/transition_request", "run")
 		var lean := direction.dot(global_basis.x)
 		last_lean = lerpf(last_lean,lean,0.3)
